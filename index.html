@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeHustle Website</title>
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <!-- Other CSS -->
+    <link rel="stylesheet" href="homehustle.css" type="text/css">
+    <style>
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+        .navbar-left {
+            flex: 1;
+            text-align: left;
+        }
+        .navbar-center {
+            flex: 2;
+            text-align: center;
+            scale: 75%
+        }
+        .navbar-right {
+            flex: 1;
+            text-align: right;
+        }
+        .menu-link,
+        .signin-link,
+        .signup-link {
+            padding: 10px 10px;
+            color: black;
+            text-decoration: none;
+            font-size: 22px;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+        .menu-link:hover,
+        .signin-link:hover,
+        .signup-link:hover {
+            color: #40BFFF;
+        }
+    </style>
+</head>
+<body>
+    <!--------------Nav Bar Here--------------->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="#" class="menu-link">Menu</a>
+        </div>
+        <div class="navbar-center">
+            <img src="webpage logo.png" alt="Logo">
+        </div>
+        <div class="navbar-right">
+            <a href="#" class="signin-link">Sign-In</a>
+            <a href="#" class="signup-link">Sign-Up</a>
+        </div>
+    </nav>
+    <!--------------Homepage Here--------------->
+    <div class="hero-slider">
+        <div><img src="hero image 1.png" alt="Image 1"></div>
+        <div><img src="hero image 2.png" alt="Image 2"></div>
+        <div><img src="hero image 3.png" alt="Image 3"></div>
+    </div>
+    <div class="frosty-box">
+        <h1 class="gradient-text">Where convenience meets innovation, <br> making your next move easier than ever</h1>
+        <div class="search-box">
+            <input type="text" placeholder="Enter an address, city, or ZIP code">
+            <button>Search</button>
+        </div>
+    </div>
+    <!--------------Cards (Row 1) Here--------------->
+    <section>
+        <div class="listing-1">
+            <h2>Virtual Tours For You</h2>
+        </div>
+        <div class="container-1">
+            <div class="horizontal-cards">
+                <div class="card">
+                    <img src="condo card 1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">$2,599+</h5>
+                        <p class="card-text"> 1 bd | 1 ba | 800 sqft</p>
+                        <p class="card-address">1501 Buena Avenue, Alameda, CA 94501</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="condo card 2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">$3,105+</h5>
+                        <p class="card-text"> 1 bd | 1 ba | 900 sqft</p>
+                        <p class="card-address">3883 Turquoise Way, Alameda, CA 94501</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="condo card 3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">$3,200+</h5>
+                        <p class="card-text"> 1 bd | 1 ba | 1,040 sqft</p>
+                        <p class="card-address">1238 Quail Creek Circle, Oakland, CA 94609</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <div class="button-container">
+        <button class="view-more-buttons">View More</button>
+    </div>
+    <!--------------Cards (Row 2) Here--------------->
+    <section>
+        <div class="listing-2">
+            <h2>Rental Listings</h2>
+        </div>
+        <div class="container-2">
+            <div class="horizontal-cards">
+                <div class="card">
+                    <img src="rental listing 1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">$5,200</h5>
+                        <p class="card-text"> 3 bd | 2.5 ba | 1,740 sqft</p>
+                        <p class="card-address">1234 Crystal Road, Berkeley, CA 94801</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="rental listing 2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">$6,499</h5>
+                        <p class="card-text"> 4 bd | 3 ba | 1,890 sqft</p>
+                        <p class="card-address">5678 Tan Street, Berkeley, CA 94691</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="rental listing 3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">$5,800</h5>
+                        <p class="card-text"> 3 bd | 2.5 ba | 1,840 sqft</p>
+                        <p class="card-address">1572 King Street, Alameda, CA 94504</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="button-container">
+        <button class="view-more-buttons">View More</button>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="icon-container">
+                <div><img src="icon 1.png" alt="Image 1"></div>
+                <div><img src="icon 2.png" alt="Image 2"></div>
+                <div><img src="icon 3.png" alt="Image 3"></div>
+                <div><img src="icon 4.png" alt="Image 2"></div>
+                <div><img src="icon 5.png" alt="Image 3"></div>
+            </div>
+        </div>
+        <div class="info-box">
+            <p>About</p>
+            <p>Careers</p>
+            <p>Contacts</p>
+            <p>FAQ</p>
+            <p>Services</p>
+        </div>
+        <div class="copyright-box">
+            <p>&copy; 2024 Your Website. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Slick Slider JavaScript and other scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="homehustle.js"></script>
+    </div>
+</body>
+</html>
