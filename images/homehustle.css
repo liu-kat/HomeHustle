@@ -1,0 +1,235 @@
+/* Media Query for Small Screens */
+@media screen and (max-width: 1440px) {
+    .frosty-box {
+        font-size: 4vw; /* Adjust font size for smaller screens */
+    }
+
+    .search-box input, .search-box button {
+        font-size: 3vw; /* Adjust font size for smaller screens */
+    }
+}
+
+.hero-slider {
+    position: relative;
+    height: auto; /* Automatically adjusts height to match image */
+    overflow: hidden; /* Ensure the image doesn't overflow its container */
+}
+
+.hero-slider img {
+    width: 96%;
+    object-fit: cover; /* Cover the entire area */
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.frosty-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90vw; /* Adjust width as needed */
+    max-width: 60%; /* Maximum width for the frosty box */
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust opacity as needed */
+    padding: 90px;
+    border-radius: 40px;
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Center items horizontally */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    font-family: sans-serif;
+    font-size: 1vw;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.gradient-text {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2); /* Adds shadow effect */
+}
+
+.search-box {
+    margin-top: 20px;
+    width: 100%; /* Make the search box fill the frosty box */
+    max-width: 1000px; /* Maximum width for the search box */
+    display: flex; /* Use flexbox layout for search box contents */
+    align-items: center;
+}
+
+.search-box input {
+    flex: 1; /* Make the input field flexible to take remaining space */
+    padding: 20px; /* Increase padding for larger input */
+    border-radius: 5px 0 0 5px; /* Rounded border on the left side */
+    border: 1px solid #ccc; /* Add border for input field */
+    font-size: 22px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Drop shadow */
+}
+
+.search-box button {
+    padding: 20px 60px; /* Increase padding for larger button */
+    background: linear-gradient(90deg, #237EE9, #4E1299);
+    color: white;
+    border: none;
+    border-radius: 20px; /* Rounded border on the right side */
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-left: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Drop shadow */
+}
+
+.listing-1 {
+    margin-top: 5%;
+    padding: 15px;
+    font-size: 28px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listing-2 {
+    margin-top: 7%;
+    padding: 15px;
+    font-size: 28px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-1 {
+    width: 100%;
+    max-width: 100%; /* Adjust as needed */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-2 {
+    width: 100%;
+    max-width: 100%; /* Adjust as needed */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 100%; /* Adjust width of each card */
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Drop shadow */
+}
+
+.horizontal-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.horizontal-cards .card {
+    margin-right: 55px; /* Adjust the value as needed for the desired gap */
+}
+
+
+.card-title {
+    font-size: 32px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.card-text {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 22px;
+    margin-top: -40px;
+}
+
+.card-address {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 22px;
+    margin-top: -10px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.view-more-buttons {
+    padding: 20px 48px; /* Increase padding for larger button */
+    background: linear-gradient(90deg, #237EE9, #4E1299);
+    color: white;
+    border: none;
+    border-radius: 10px; /* Rounded border on the right side */
+    font-family: sans-serif;
+    font-size: 22px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Drop shadow */
+    margin-top: 3%;
+}
+
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: #333; /* Background color of the footer */
+    color: #fff; /* Text color of the footer */
+    padding: 20px 0; /* Padding inside the footer */
+    text-align: center; /* Align text in the center */
+    margin-top: 300px;
+}
+
+.footer-container {
+    width: 100%; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.icon-container {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.icon-container div {
+    margin: 0 15px;
+}
+
+.icon-container div img {
+    width: 40px;
+    height: auto;
+}
+
+.info-box {
+    display: inline-flex;
+}
+
+.info-box p {
+    margin: 0 20px;
+    margin-top: 18%;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.copyright-box {
+    display: center;
+}
+
+.copyright-box p {
+    margin: 0 30px;
+    margin-top: 2%;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.hero-slider-container {
+    position: relative;
+    overflow: hidden; /* Ensure the frosty box doesn't overflow */
+}
+
+.hero-slider {
+    position: relative;
+    z-index: 0; /* Ensure the slider is behind the frosty box */
+}
