@@ -16,7 +16,7 @@
 .hero-slider img {
   width: 96%;
   object-fit: cover; /* Cover the entire area */
-  margin-left: 40px;
+  margin-left: 40px; /* Cover the entire area */ /* Cover the entire area */
   margin-right: 40px;
 }
 .frosty-box {
